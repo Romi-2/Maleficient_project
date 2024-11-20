@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
 /* typography style start*/
 body{
     color: white;
@@ -191,10 +194,9 @@ input{
 /*media query start*/
 
 @media (max-width:960px){
-    .row {
-        margin: 0; /* Reset margins */
-        width: 100%; /* Ensure full width */
-        padding: 0; /* Reset padding */
+    .row{
+        margin: auto;
+        width: auto;
     }
     h1{
         text-align: center;
