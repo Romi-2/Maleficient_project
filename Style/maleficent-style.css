@@ -1,0 +1,240 @@
+/* typography style start*/
+body{
+    color: white;
+}
+h1{
+    font-size:37px ;
+    line-height: 47px;
+    font-weight: 800;
+}
+h2{
+    font-size:29px ;
+    line-height: 39px;
+    font-weight: 700;
+}
+h3{
+    font-size:19px ;
+    line-height: 23px;
+    font-weight: 700;
+}
+h4{
+    font-size:15px ;
+    line-height: 20px;
+    font-weight: 200;
+    color: #5486C5;
+}
+p{
+    font-size:12px ;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* typography style end*/
+
+/* navbar style start*/
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color:green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+  }
+.navbar{
+    background-color:black !important;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.nav-link {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* navbar style end*/
+
+/* global style start*/
+
+body{
+    font-family: "montserret" , sans-serif;
+}
+section{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+#carouselInterval img{
+    height: 600px;
+    width: 100%;
+    border:10px solid black;
+}
+#square .card{
+    width:13rem;
+    background-color:white;
+    color: black;
+    margin-bottom: 30px;
+}
+
+/* global style end*/
+
+/* header banner  start*/
+.body-banner{
+    background-color:black;
+}
+.body-banner .row{
+    align-items: center;
+}
+.header-banner{
+    background-color:black;
+}
+.header-banner .row{
+    align-items: center;
+}
+.center-block{
+    height: 400px;
+    width: 300px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#button{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    border: 0ch green;
+    width: 200px;
+    border-radius: 18px;
+}
+/* header banner end*/
+
+/* snd-banner start*/
+ 
+#Snd-banner{
+    color: black;
+}
+/* snd-banner end*/
+
+/* thrd-banner start*/
+#thrd-banner{
+background-color: black;
+color: white;
+}
+#thrd-banner img{
+    border-radius:50%;
+}
+#thrd-banner .card{
+    width: 11rem; 
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+}
+/* thrd-banner end*/
+
+
+/* last-banner start*/
+#input{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    }
+input{
+    height: 40px;
+    width: 250px;
+    margin: 15px;
+}
+/* thrd-banner end*/
+
+/*text-banner start*/
+#text-banner{
+    background-color: black;
+    margin-top: auto;
+    }
+.card{
+    width: 18rem; 
+    background-color: black; 
+    color: white;
+    margin-bottom: 20px;
+}
+#text-banner .card img{
+    width: 18rem;
+}
+/* text-banner end*/
+
+/*Articles-banner start*/
+#Articles{
+    background-color:white;
+    }
+#Articles .card{
+    width: 18rem; 
+    background-color:white; 
+    color:black;
+    border: none;
+}
+#Articles .card img{
+    width:16rem;
+    height: 16rem;
+}
+/* Articles-banner end*/
+
+/*map-banner start*/
+
+
+
+/* map-banner end*/
+
+/*media query start*/
+
+@media (max-width:960px){
+    .row{
+        margin: auto;
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+ .header-banner .row{
+        display: flex;
+        flex-direction:column-reverse;    
+    }
+    .header-banner #button{
+        margin: auto;
+        padding: auto;
+    }
+    .card{
+        margin: auto;
+        padding: auto;
+    }
+    iframe{
+        margin: auto;
+        padding: auto;
+    }
+    footer  h3{
+        text-align: left;
+    }
+    footer  p{
+        text-align: left;
+    }
+}
+/*media query end*/
+
+/* footer style start*/
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+/* footer style end*/
