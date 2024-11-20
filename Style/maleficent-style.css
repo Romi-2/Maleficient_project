@@ -122,9 +122,11 @@ color: white;
 }
 #thrd-banner img{
     border-radius:50%;
+    height: 270px;
 }
 #thrd-banner .card{
-    width: 11rem; 
+    width: 13rem; 
+    height: 440px;
     background-color: black;
     color: white;
     margin-bottom: 40px;
@@ -151,7 +153,7 @@ input{
     background-color: black;
     margin-top: auto;
     }
-.card{
+#text-banner .card{
     width: 18rem; 
     background-color: black; 
     color: white;
