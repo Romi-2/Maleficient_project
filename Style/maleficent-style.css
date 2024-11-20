@@ -154,10 +154,12 @@ input{
     margin-top: auto;
     }
 #text-banner .card{
-    width: 18rem; 
+    width: 18rem;
+    text-align: center; 
     background-color: black; 
     color: white;
     margin-bottom: 20px;
+    border: 2px solid white;
 }
 #text-banner .card img{
     width: 18rem;
