@@ -3,227 +3,282 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maleficent | Mistress of the Moors</title>
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Maleficent | Mistress of Darkness - Official Realm</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Style/bootstrap.css">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google Fonts - Captivating & Cinematic -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style/all.css">
+    <link rel="stylesheet" href="Style/index.css">
 </head>
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-        <img class="logo" src="images/malaficent.logo.png" alt="Maleficent Logo" onerror="this.src='https://placehold.co/60x60?text=M'">
-        <a class="navbar-brand" href="#">MALEFICENT</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="#FEATURES">FEATURES</a></li>
-                <li class="nav-item"><a class="nav-link" href="#Video">VIDEO</a></li>
-                <li class="nav-item"><a class="nav-link" href="#GALLERY">GALLERY</a></li>
-                <li class="nav-item"><a class="nav-link" href="#ARTICLES">ARTICLES</a></li>
-                <li class="nav-item"><a class="nav-link" href="#LOCATION">LOCATION</a></li>
-                <li class="nav-item"><a class="nav-link" href="#CONTACT">CONTACT</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<!-- Hero Section -->
-<div class="hero-banner container-fluid pt-5 mt-5">
-    <div class="container py-5">
-        <div class="row align-items-center g-5">
-            <div class="col-lg-6">
-                <h1 class="display-4 fw-bold" style="background: linear-gradient(135deg, #f3e5c9, #b88b5a); -webkit-background-clip: text; background-clip: text; color: transparent;">Welcome to the World of Maleficent</h1>
-                <p class="lead mt-4 text-light-emphasis">Step into the enchanting and mysterious world of Maleficent, where dark magic meets a tale of love, betrayal, and redemption. Explore her journey from a misunderstood fairy to a powerful protector of the Moors.</p>
-                <button class="btn btn-gold mt-3" id="getStartedBtn"><i class="fas fa-feather-alt me-2"></i>Begin the Journey</button>
-            </div>
-            <div class="col-lg-6 text-center">
-                <img src="images/new-maleficent.jpg" class="img-fluid hero-img" alt="Maleficent Portrait" onerror="this.src='https://placehold.co/500x500?text=Maleficent'">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <img class="logo" src="images/malaficent.logo.png" alt="Maleficent Logo">
+            <a class="navbar-brand" href="#">MALEFICENT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#FEATURES">FEATURES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Video">VIDEO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#GALLERY">GALLERY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ARTICLES">ARTICLES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#LOCATION">LOCATION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#CONTACT">CONTACT</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-</div>
+    </nav>
 
-<!-- FEATURES Section -->
-<div id="FEATURES" class="container-fluid text-center py-5">
+    <!-- Hero Banner -->
+    <div class="header-banner container-fluid pt-5 mt-5">
+        <section class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <h1 class="display-4 fw-bold" style="background: linear-gradient(135deg, #f3e5c9, #b88b5a); -webkit-background-clip: text; background-clip: text; color: transparent;">Welcome to the World of Maleficent</h1>
+                    <p class="lead">Step into the enchanting and mysterious world of Maleficent, where dark magic meets a tale of love, betrayal, and redemption. Explore her journey from a misunderstood fairy to a powerful protector of the Moors, and witness the story that redefined fairy tales forever.</p>
+                    <button id="button" type="submit">Get Started</button>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center">
+                    <img src="images/new-maleficent.jpg" class="img-fluid center-block" alt="Maleficent">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FEATURES Section -->
+    <div id="Snd-banner" class="container-fluid text-center py-5">
+        <section class="container" id="FEATURES">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-title">DARK ENCHANTMENTS</h1>
+                    <p class="section-subtitle">The powerful and enigmatic Mistress of Evil, protector of the Moors, and misunderstood fairy.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Features Cards - Equal Height -->
+    <div id="thrd-banner" class="container-fluid">
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/photo0.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Mistress of Evil</h5><p class="card-text">Discover the dark sequel of Maleficent as the evil queen faces new threats, challenges, and an epic battle.</p></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/malaficent.png" class="card-img-top"><div class="card-body"><h5 class="card-title">Dark Magic Rises</h5><p class="card-text">Explore the designs behind Maleficent's transformation and iconic look, highlighting the artistry that brought her to life.</p></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/images (2).jpeg" class="card-img-top"><div class="card-body"><h5 class="card-title">Secrets of Moors</h5><p class="card-text">As Maleficent guards this magical haven, she uncovers truths about its past, powers, and its bond with her destiny.</p></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/angelina-jolie-maleficent-photoshoot-hd-png-download.png" class="card-img-top"><div class="card-body"><h5 class="card-title">Rise of Maleficent</h5><p class="card-text">Witness the transformation of Maleficent from a kind-hearted fairy to the most feared villain in the kingdom.</p></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/images (5).jpeg" class="card-img-top"><div class="card-body"><h5 class="card-title">Moors Reclaimed</h5><p class="card-text">Explore the enchanted land of the Moors as Maleficent fights to protect its magical creatures and preserve their harmony.</p></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/maleficent-2019-maleficent-3d-thumbnail.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">The Lost Forest</h5><p class="card-text">Maleficent ventures through twisted trees and glowing flora, uncovering forces that could protect or destroy her kingdom.</p></div></div></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Search Banner 1 -->
+    <div id="last-banner" class="container-fluid text-center">
+        <section class="container">
+            <div id="input">
+                <h3>Discover the Story of the Mistress of Evil</h3>
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" placeholder="Search legends, magic, secrets...">
+                    <button id="button" type="submit">Explore</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-fluid text-center bg-black py-5" id="Video">
     <div class="container">
-        <h2 class="section-title">Dark Enchantments</h2>
-        <p class="section-subtitle">The powerful and enigmatic Mistress of Evil, protector of the Moors, and misunderstood fairy.</p>
-        <div class="row g-4 mt-2">
-            <div class="col-lg-2 col-md-4 col-sm-6"><div class="feature-card"><img src="images/photo0.jpg" class="img-fluid" onerror="this.src='https://placehold.co/300x200'"><div class="mt-3"><h5 class="text-gold">Mistress of Evil</h5><p class="small">Discover the dark sequel as the evil queen faces new threats.</p></div></div></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><div class="feature-card"><img src="images/malaficent.png" onerror="this.src='https://placehold.co/300x200'"><div class="mt-3"><h5>Dark Magic Rises</h5><p class="small">Explore designs behind Maleficent's transformation.</p></div></div></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><div class="feature-card"><img src="images/images%20(2).jpeg" onerror="this.src='https://placehold.co/300x200'"><div class="mt-3"><h5>Secrets of Moors</h5><p class="small">Uncovering truths about its past and her destiny.</p></div></div></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><div class="feature-card"><img src="images/angelina-jolie-maleficent-photoshoot-hd-png-download.png" onerror="this.src='https://placehold.co/300x200'"><div class="mt-3"><h5>Rise of Maleficent</h5><p class="small">Witness her transformation to the most feared villain.</p></div></div></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><div class="feature-card"><img src="images/images%20(5).jpeg" onerror="this.src='https://placehold.co/300x200'"><div class="mt-3"><h5>Moors Reclaimed</h5><p class="small">Fight to protect magical creatures & harmony.</p></div></div></div>
-            <div class="col-lg-2 col-md-4 col-sm-6"><div class="feature-card"><img src="images/maleficent-2019-maleficent-3d-thumbnail.jpg" onerror="this.src='https://placehold.co/300x200'"><div class="mt-3"><h5>The Lost Forest</h5><p class="small">Uncovering forces that could protect or destroy.</p></div></div></div>
+        <h2 class="section-title">THE DARK PROPHECY</h2>
+        
+        <!-- Video Tabs -->
+        <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="videoTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active bg-dark text-gold border-gold mx-2 rounded-pill px-4" data-bs-toggle="tab" data-bs-target="#trailer1" type="button" role="tab">Teaser Trailer</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link bg-dark text-gold border-gold mx-2 rounded-pill px-4" data-bs-toggle="tab" data-bs-target="#trailer2" type="button" role="tab">Official Trailer</button>
+            </li>
+        </ul>
+        
+        <!-- Video Content -->
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="trailer1" role="tabpanel">
+                <div class="ratio ratio-16x9 my-4 rounded-4 overflow-hidden shadow-lg">
+                    <iframe 
+                        src="https://youtu.be/7Aw-XMYBeIQ?si=k54Lsa7kpQP0HPOZ" 
+                        title="Maleficent Teaser" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="trailer2" role="tabpanel">
+                <div class="ratio ratio-16x9 my-4 rounded-4 overflow-hidden shadow-lg">
+                    <iframe 
+                        src="https://www.youtube.com/embed/70xcF-2z_0w?autoplay=0&rel=0" 
+                        title="Maleficent Official Trailer" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
         </div>
+        <p class="text-muted mt-3">✨ Experience the dark magic - Click play to watch the trailer</p>
     </div>
 </div>
 
-<!-- Call to Action Banner 1 -->
-<div class="container my-4">
-    <div class="search-banner text-center">
-        <h3 class="fw-bold">Discover the Story of the Mistress of Evil</h3>
-        <div class="mt-3">
-            <input type="text" class="search-input me-2" placeholder="Search articles...">
-            <button class="btn btn-gold mt-2 mt-sm-0">Get started</button>
+    <!-- Character Cards -->
+    <div id="text-banner" class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6"><div class="card h-100"><div class="card-body"><h3 class="card-title">Maleficent</h3><p class="card-text">Once a kind-hearted fairy, she became a powerful and vengeful figure after betrayal. Her dark powers, fueled by pain, led her to curse Aurora, but her journey toward forgiveness ultimately defines her legacy as protector of the Moors.</p></div></div></div>
+                <div class="col-lg-3 col-md-6"><div class="card h-100"><div class="card-body"><h3 class="card-title">Aurora</h3><p class="card-text">The princess cursed by Maleficent grows up unaware of her true heritage. With courage and kindness, she unites the realms of men and magic, becoming a symbol of peace, hope, and the bridge between two worlds.</p></div></div></div>
+                <div class="col-lg-3 col-md-6"><div class="card h-100"><div class="card-body"><h3 class="card-title">Diaval</h3><p class="card-text">Maleficent's loyal shape-shifting raven and closest confidant. His unwavering friendship and sacrifice help Maleficent rediscover love and compassion, proving that loyalty can heal even the darkest heart.</p></div></div></div>
+                <div class="col-lg-3 col-md-6"><div class="card h-100"><div class="card-body"><h3 class="card-title">Stefan</h3><p class="card-text">Once Maleficent's greatest friend, his ambition turns him into her deadliest enemy. Haunted by guilt and fear, his choices set in motion a curse that will echo through both kingdoms forever.</p></div></div></div>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- VIDEO Section -->
-<div id="Video" class="container-fluid py-5 bg-black">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title">Official Teaser</h2>
-            <p class="section-subtitle">Witness the magic and darkness in this exclusive trailer.</p>
-        </div>
-        <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-lg">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/F9dA2lI0_oQ" title="MALEFICENT 3 Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+    <!-- GALLERY Section -->
+    <div id="Snd-banner" class="container-fluid text-center py-4">
+        <section class="container" id="GALLERY">
+            <h2 class="section-title">REALM OF SHADOWS</h2>
+        </section>
     </div>
-</div>
 
-<!-- Character Descriptions -->
-<div class="container-fluid py-5" style="background:#0d0d0d">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6"><div class="card-dark p-3"><h3 class="card-title-custom">Maleficent</h3><p>Once a kind-hearted fairy, became vengeful after betrayal. Her dark powers fuel a curse, but redemption defines her legacy.</p></div></div>
-            <div class="col-lg-3 col-md-6"><div class="card-dark p-3"><h3 class="card-title-custom">Aurora</h3><p>The princess cursed, grows unaware of her heritage. With courage she unites realms and becomes a symbol of peace.</p></div></div>
-            <div class="col-lg-3 col-md-6"><div class="card-dark p-3"><h3 class="card-title-custom">Diaval</h3><p>Loyal shape-shifting raven, confidant and protector. His unwavering friendship helps Maleficent protect the Moors.</p></div></div>
-            <div class="col-lg-3 col-md-6"><div class="card-dark p-3"><h3 class="card-title-custom">Stefan</h3><p>Once closest friend, becomes enemy driven by ambition. His betrayal casts a shadow, haunted by regret.</p></div></div>
-        </div>
-    </div>
-</div>
-
-<!-- GALLERY Section with Carousel -->
-<div id="GALLERY" class="container-fluid py-5 text-center">
-    <div class="container">
-        <h2 class="section-title">Visual Enchantment</h2>
-        <p class="section-subtitle">Iconic moments from the realm of darkness and wonder.</p>
+    <!-- Carousel -->
+    <div class="container my-4">
         <div id="carouselInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active"><img src="images/Maleficent%20Angelina%20Jolie%20(2).jpg" class="d-block w-100" onerror="this.src='https://placehold.co/1200x600?text=Maleficent'"></div>
-                <div class="carousel-item"><img src="images/Angelina-Jolie-Maleficent-Elle-Fanning-Aurora%20(1).avif" onerror="this.src='https://placehold.co/1200x600?text=Aurora'"></div>
-                <div class="carousel-item"><img src="images/maleficent.jpg" onerror="this.src='https://placehold.co/1200x600?text=Moors'"></div>
+            <div class="carousel-inner rounded-4">
+                <div class="carousel-item active"><img src="images/Maleficent Angelina Jolie (2).jpg" class="d-block w-100" alt="Maleficent"></div>
+                <div class="carousel-item"><img src="images/Angelina-Jolie-Maleficent-Elle-Fanning-Aurora (1).avif" class="d-block w-100" alt="Aurora"></div>
+                <div class="carousel-item"><img src="images/maleficent.jpg" class="d-block w-100" alt="Moors"></div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselInterval" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselInterval" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
         </div>
     </div>
-</div>
 
-<!-- Character Gallery Grid -->
-<div class="container py-4">
-    <div class="row g-4">
-        <div class="col-lg-2 col-md-4 col-sm-6"><div class="card-dark text-center p-2"><img src="images/download3.jpg" class="img-fluid rounded-3" onerror="this.src='https://placehold.co/200x200'"><h6 class="mt-2">MALEFICENT</h6></div></div>
-        <div class="col-lg-2 col-md-4 col-sm-6"><div class="card-dark text-center p-2"><img src="images/badbd7a222744527741380588918de58.jpg" class="img-fluid rounded-3"><h6 class="mt-2">Aurora</h6></div></div>
-        <div class="col-lg-2 col-md-4 col-sm-6"><div class="card-dark text-center p-2"><img src="images/Kingstefan.jpg" class="img-fluid rounded-3"><h6 class="mt-2">Stefan</h6></div></div>
-        <div class="col-lg-2 col-md-4 col-sm-6"><div class="card-dark text-center p-2"><img src="images/Diaval.jpg" class="img-fluid rounded-3"><h6 class="mt-2">Diaval</h6></div></div>
-        <div class="col-lg-2 col-md-4 col-sm-6"><div class="card-dark text-center p-2"><img src="images/Three%20Fairies.jpg" class="img-fluid rounded-3"><h6 class="mt-2">Three Fairies</h6></div></div>
-        <div class="col-lg-2 col-md-4 col-sm-6"><div class="card-dark text-center p-2"><img src="images/phillip.gif" class="img-fluid rounded-3"><h6 class="mt-2">Phillip</h6></div></div>
-    </div>
-</div>
-
-<!-- Dark Fantasy Story Banner -->
-<div class="container-fluid hero-banner py-5 mt-4">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6"><h2 class="fw-bold">Maleficent - A Dark Fantasy</h2><p>Maleficent isn't just a story about an evil queen, but a tale of transformation, power, and revenge. The stunning visual effects, compelling characters, and emotional depth bring this dark fantasy world to life.</p></div>
-            <div class="col-lg-6 text-center"><img src="images/male.snd.div.jpg" class="img-fluid rounded-4 shadow" onerror="this.src='https://placehold.co/500x400'"></div>
+    <!-- Character Icons Grid -->
+    <div id="square" class="container-fluid text-center py-4">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/download3.jpg" class="card-img-top"><div class="card-body"><h5>MALEFICENT</h5></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/badbd7a222744527741380588918de58.jpg" class="card-img-top"><div class="card-body"><h5>AURORA</h5></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/Kingstefan.jpg" class="card-img-top"><div class="card-body"><h5>STEFAN</h5></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/Diaval.jpg" class="card-img-top"><div class="card-body"><h5>DIAVAL</h5></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/Three Fairies.jpg" class="card-img-top"><div class="card-body"><h5>THREE FAIRIES</h5></div></div></div>
+                <div class="col-lg-2 col-md-4 col-sm-6"><div class="card"><img src="images/phillip.gif" class="card-img-top"><div class="card-body"><h5>PRINCE PHILLIP</h5></div></div></div>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- ARTICLES Section -->
-<div id="ARTICLES" class="container-fluid py-5">
-    <div class="container">
-        <div class="text-center"><h2 class="section-title">Latest Chronicles</h2><p class="section-subtitle">Dive deep into the lore and legacy.</p></div>
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6"><div class="article-card"><h3 class="card-title-custom">Maleficent's Journey</h3><p>From young fairy full of love to formidable sorceress driven by pain and revenge, her evolution is a testament to complex nature of good and evil.</p><img src="images/maleficent-preview.jpg" class="article-img" onerror="this.src='https://placehold.co/300x180'"></div></div>
-            <div class="col-lg-3 col-md-6"><div class="article-card"><h3 class="card-title-custom">Heart of a Villain</h3><p>Her actions stem from betrayal, love, and an unyielding desire for justice. A deeper look at the misunderstood queen.</p><img src="images/desktop-wallpaper-maleficent-maleficent.jpg" class="article-img" onerror="this.src='https://placehold.co/300x180'"></div></div>
-            <div class="col-lg-3 col-md-6"><div class="article-card"><h3 class="card-title-custom">Maleficent's Influence</h3><p>Redefining the villain archetype, her complexity inspires storytellers to reconsider what it means to be a villain.</p><img src="images/tumblr-7_640.jpg" class="article-img" onerror="this.src='https://placehold.co/300x180'"></div></div>
-            <div class="col-lg-3 col-md-6"><div class="article-card"><h3 class="card-title-custom">Maleficent's Enemies</h3><p>Beyond the curse on Aurora lies a darker history of those who shaped her view of the world.</p><img src="images/image_4794d986.jpeg" class="article-img" onerror="this.src='https://placehold.co/300x180'"></div></div>
+    <!-- Dark Fantasy Banner -->
+    <div class="header-banner container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6"><h1 class="display-5">Maleficent - A Dark Fantasy</h1><p>Maleficent isn't just a story about an evil queen, but a tale of transformation, power, and revenge. The stunning visual effects, compelling characters, and emotional depth bring this dark fantasy world to life. From the haunting beauty of the Moors to the tragic fall of a hero, every frame breathes magic.</p></div>
+                <div class="col-lg-6"><img src="images/male.snd.div.jpg" class="img-fluid rounded-4 shadow-lg" alt="Dark Fantasy"></div>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Second Call to Action -->
-<div class="container my-4">
-    <div class="search-banner text-center">
-        <h3 class="fw-bold">A tale of betrayal, vengeance, and redemption.</h3>
-        <div class="mt-3"><input type="text" class="search-input me-2" placeholder="Explore the magic..."><button class="btn btn-gold">Get started</button></div>
+    <!-- ARTICLES Section -->
+    <div id="Snd-banner" class="container-fluid text-center py-4">
+        <section class="container" id="ARTICLES">
+            <h2 class="section-title">ANCIENT CHRONICLES</h2>
+        </section>
     </div>
-</div>
 
-<!-- LOCATION Section -->
-<div id="LOCATION" class="container-fluid py-5">
-    <div class="container text-center">
-        <h2 class="section-title">Realm Location</h2>
-        <p class="section-subtitle">Visit the enchanted lands where the Moors meet reality.</p>
-        <div class="map-container ratio ratio-16x9 rounded-4 overflow-hidden">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55286.5569283235!2d73.25173604999999!3d29.996387100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393d6fde6a3a0b23%3A0x73f43180cc7dd75e!2sBahawalnagar%2C%20Punjab!5e0!3m2!1sen!2s!4v1719815613386!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div id="Articles" class="container-fluid">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6"><div class="card h-100"><div class="card-body d-flex flex-column"><h3 class="card-title">Maleficent's Journey</h3><p class="card-text flex-grow-1">From a young fairy full of love to a formidable sorceress driven by pain, her evolution is a testament to the complex nature of good and evil. The wings of betrayal gave rise to the horns of vengeance.</p><img src="images/maleficent-preview.jpg" class="img-fluid"></div></div></div>
+                <div class="col-lg-3 col-md-6"><div class="card h-100"><div class="card-body d-flex flex-column"><h3 class="card-title">Heart of a Villain</h3><p class="card-text flex-grow-1">At first glance, Maleficent may seem like a typical villain, but her true motivations are more complex. Her actions stem from deep betrayal, unyielding love for the Moors, and a fierce desire for justice.</p><img src="images/desktop-wallpaper-maleficent-maleficent.jpg" class="img-fluid"></div></div></div>
+                <div class="col-lg-3 col-md-6"><div class="card h-100"><div class="card-body d-flex flex-column"><h3 class="card-title">Maleficent's Influence</h3><p class="card-text flex-grow-1">In a world of clear-cut good vs. evil, Maleficent breaks the mold by redefining the villain archetype. Her complexity has inspired generations of storytellers to embrace moral ambiguity and dark femininity.</p><img src="images/tumblr-7_640.jpg" class="img-fluid"></div></div></div>
+                <div class="col-lg-3 col-md-6"><div class="card h-100"><div class="card-body d-flex flex-column"><h3 class="card-title">Maleficent's Enemies</h3><p class="card-text flex-grow-1">Beyond the curse on Aurora lies a darker history of those who shaped her view of the world. Not all enemies wear crowns — some once wore the mask of friendship.</p><img src="images/image_4794d986.jpeg" class="img-fluid"></div></div></div>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- CONTACT Section -->
-<div id="CONTACT" class="container-fluid py-5 text-center bg-black">
-    <div class="container">
-        <h2 class="section-title">Summon the Mistress</h2>
-        <p class="section-subtitle">Get in touch for press, fan art, or exclusive updates.</p>
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card-dark p-4">
-                    <i class="fas fa-envelope fa-2x mb-3" style="color:#b88b5a"></i>
-                    <h5>contact@maleficentlegacy.com</h5>
-                    <hr class="bg-secondary">
-                    <i class="fab fa-twitter social-icon"></i>
-                    <i class="fab fa-instagram social-icon"></i>
-                    <i class="fab fa-facebook social-icon"></i>
+    <!-- Search Banner 2 -->
+    <div id="last-banner" class="container-fluid text-center">
+        <div class="container">
+            <div id="input">
+                <h3>A tale of betrayal, vengeance, and redemption.</h3>
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" placeholder="Uncover the lost spells...">
+                    <button id="button" type="submit">Awaken Magic</button>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- FOOTER -->
-<footer class="footer">
-    <div class="container">
-        <div class="row gy-4">
-            <div class="col-lg-4"><span class="footer-logo">✦ MALEFICENT ✦</span><hr><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet odio cupiditate libero dolorum voluptatem, neque in similique dicta magni dolorem dolor animi possimus temporibus.</p><div class="mt-3"><i class="fab fa-twitter social-icon"></i><i class="fab fa-instagram social-icon"></i><i class="fab fa-youtube social-icon"></i></div></div>
-            <div class="col-lg-4"><h5 class="text-gold">THE MOORS</h5><p>Explore enchanted forests, dark secrets, and the untold chapters of the fairy realm.</p><h5 class="mt-3 text-gold">LEGACY</h5><p>Maleficent redefined the classic fairy tale, inspiring a new generation of dreamers.</p></div>
-            <div class="col-lg-4"><h5 class="text-gold">NEWSLETTER</h5><p>Subscribe for dark tales and exclusive content.</p><div class="input-group"><input type="email" class="form-control bg-dark text-white border-secondary" placeholder="Your email"><button class="btn btn-gold">Join</button></div></div>
-        </div>
-        <hr class="mt-5 bg-secondary">
-        <div class="text-center pt-3 small text-muted">&copy; 2025 Maleficent Legacy. All rights reserved. Embrace the shadows.</div>
+    <!-- LOCATION -->
+    <div id="Snd-banner" class="container-fluid text-center py-4">
+        <section class="container" id="LOCATION">
+            <h2 class="section-title">WHERE DARKNESS DWELLS</h2>
+        </section>
     </div>
-</footer>
+    <div class="container-fluid mb-5">
+        <div class="container">
+            <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55286.5569283235!2d73.25173604999999!3d29.996387100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393d6fde6a3a0b23%3A0x73f43180cc7dd75e!2sBahawalnagar%2C%20Punjab!5e0!3m2!1sen!2s!4v1719815613386!5m2!1sen!2s" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
 
-<!-- Bootstrap JS Bundle -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-    document.getElementById('getStartedBtn')?.addEventListener('click', function(){
-        alert('Welcome to the Moors. Discover the magic within.');
-        window.location.href = '#FEATURES';
-    });
-    // smooth scroll for all nav links
-    document.querySelectorAll('.nav-link').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            const hash = this.getAttribute('href');
-            if(hash && hash !== '#' && hash.startsWith('#')) {
-                e.preventDefault();
-                const target = document.querySelector(hash);
-                if(target) target.scrollIntoView({ behavior: 'smooth' });
-            }
-        });
-    });
-</script>
+    <!-- CONTACT -->
+    <div id="Snd-banner" class="container-fluid text-center py-4">
+        <section class="container" id="CONTACT">
+            <h2 class="section-title">SUMMON THE MISTRESS</h2>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bd-footer py-5 mt-5 container-fluid">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <a class="navbar-brand" href="#">✦ MALEFICENT ✦</a>
+                    <hr class="my-3 bg-secondary">
+                    <p>The Moors call to those who remember. Maleficent's legacy transcends the classic fairy tale — it is a testament to the strength found in darkness and the redemption born from love. Explore the untold chapters of the mistress of evil.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h3 class="h5 text-gold">THE MOORS</h3>
+                    <p>A realm where magic flows like water and mythical creatures roam free. The enchanted forest holds secrets of ancient power, protected by the fierce wings of its guardian.</p>
+                    <h3 class="h5 text-gold mt-3">THE CURSE</h3>
+                    <p>"Sleep a death-like sleep, awakened only by true love's kiss." But what if true love comes from the most unexpected heart?</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h3 class="h5 text-gold">JOIN THE COVEN</h3>
+                    <p>Subscribe to receive dark tales, exclusive art, and announcements from the Moors.</p>
+                    <div class="input-group mt-3">
+                        <input type="email" class="form-control bg-dark text-white border-secondary" placeholder="Your shadow address">
+                        <button class="btn btn-primary-custom">Bind</button>
+                    </div>
+                    <div class="mt-4">
+                        <i class="fab fa-twitter social-icon me-3 fs-4"></i>
+                        <i class="fab fa-instagram social-icon me-3 fs-4"></i>
+                        <i class="fab fa-facebook social-icon me-3 fs-4"></i>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="text-center pt-3 small text-muted">&copy; 2025 Maleficent — Mistress of the Moors. All rights reserved. Embrace the shadows within.</div>
+        </div>
+    </footer>
+
+    <script src="Javascript/bootstrap.bundle.js"></script>
 </body>
 </html>
