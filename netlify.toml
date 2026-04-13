@@ -1,7 +1,8 @@
 [build]
-  command = "npm install && npm run build"
+  command = "npm install --include=dev && node ./node_modules/react-scripts/bin/react-scripts.js build"
   publish = "build"
   
 [build.environment]
   NODE_VERSION = "18"
   NPM_CONFIG_PRODUCTION = "false"
+  CI = "false"
